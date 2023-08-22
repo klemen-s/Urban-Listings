@@ -1,0 +1,26 @@
+version: '3'
+services:
+  backend:
+    build: 
+      context: .
+      dockerfile: server/Dockerfile
+    ports: 
+      - 8000:8000
+    hostname: "backend"
+  database:
+      image: postgres
+      restart: always
+      environment:
+        POSTGRES_PASSWORD: root
+      ports:
+        - 5432:5432
+      hostname: "database"
+  python:
+    build: 
+      context: flatScraper
+  frontend:
+    build: 
+      context: client
+    ports:
+      - 8080:3000
+    hostname: "frontend"
