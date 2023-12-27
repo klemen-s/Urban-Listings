@@ -1,4 +1,4 @@
-# react-node
+# Flat Listing App
 Disclaimer: This code only runs on Windows!
 
 To properly run these images please execute the docker compose build and docker compose up command in the Windows Command Line (cmd).
