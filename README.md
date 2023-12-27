@@ -1,21 +1,22 @@
-# 🏢 Apartment Listing Full-Stack App
+# 🏢 Urban Listings
 
-This repository contains a project that scrapes apartment listings using Selenium, saves the data to a PostgreSQL database, and displays the listings through a React frontend. All components are containerized and orchestrated using Docker.
+This repository contains a project that scrapes apartment listings using Selenium, saves the data to a PostgreSQL database, and displays the listings through React. All components are containerized and orchestrated using Docker.
 
 ## 🌟 Features
 
-- **Apartment Listing Scraper**: Using Selenium for scraping apartment listings.
+- **Apartment Listings Scraper**: Using Selenium for scraping apartment listings.
 - **PostgreSQL Database**: Storage for the scraped apartment data.
 - **React Frontend**: User interface to browse and view apartment listings.
 - **Docker Compose**: Services orchestrated using Docker for easy deployment.
 
 ## 🛠️ Technologies Used
 
-- React
-- Typescript
-- Node.js
-- PostgreSQL
-- Python
+![React Badge](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=000&style=for-the-badge)
+![TypeScript Badge](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=fff&style=for-the-badge)
+![PostgreSQL Badge](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=fff&style=for-the-badge)
+![Python Badge](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=for-the-badge)
+![Selenium Badge](https://img.shields.io/badge/Selenium-43B02A?logo=selenium&logoColor=fff&style=for-the-badge)
+![Docker Badge](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=fff&style=for-the-badge)
 
 ## 🚀 Getting Started
 
@@ -25,8 +26,8 @@ Make sure you have Docker installed on your system.
 
 ### Installation
 
-1. Clone the repository: `git clone https://github.com/klemen-s/react-node.git`
-2. Navigate to the project directory: `cd react-node`
+1. Clone the repository: `git clone https://github.com/klemen-s/Urban-Listings.git`
+2. Navigate to the project directory: `cd Urban-Listings`
 
 ### Usage
 
@@ -38,7 +39,7 @@ Make sure you have Docker installed on your system.
 - **Backend**: Node.js backend running at `http://localhost:8000`.
 - **React** : React frontend running at `http://localhost:8080`.
 - **Database**: PostgreSQL database running at `http://localhost:5432`.
-- **Python Scraper**: Apartment ads scraping service.
+- **Python**: Apartment ads scraping service.
 
 ### Development
 
