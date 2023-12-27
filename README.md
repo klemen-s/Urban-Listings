@@ -1,11 +1,51 @@
-# Apartment Listings Full-Stack App
-Disclaimer: This code only runs on Windows!
+# 🏢 Apartment Listing Full-Stack App
 
-To properly run these images please execute the docker compose build and docker compose up command in the Windows Command Line (cmd).
+This repository contains a project that scrapes apartment listings using Selenium, saves the data to a PostgreSQL database, and displays the listings through a React frontend. All components are containerized and orchestrated using Docker.
 
-Steps to see scraped ads:
-1. Firstly run the docker compose build command and after that run the docker compose up command. 
-2. After the react app loaded, wait up to a minute or two for the web scraper to run and save all of the 500 listing ads into the database.
-   This will be evident when the command line prints "react-node-python exited with code 0".
-3. Only after that connect to http://localhost:8080 to see the scraped ads.
-   
+## 🌟 Features
+
+- **Apartment Listing Scraper**: Using Selenium for scraping apartment listings.
+- **PostgreSQL Database**: Storage for the scraped apartment data.
+- **React Frontend**: User interface to browse and view apartment listings.
+- **Docker Compose**: Services orchestrated using Docker for easy deployment.
+
+## 🛠️ Technologies Used
+
+- React
+- Typescript
+- Node.js
+- PostgreSQL
+- Python
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have Docker installed on your system.
+
+### Installation
+
+1. Clone the repository: `git clone https://github.com/klemen-s/react-node.git`
+2. Navigate to the project directory: `cd react-node`
+
+### Usage
+
+1. Run Docker Compose: `docker-compose up -d`
+2. Access the frontend at `http://localhost:8080` in your web browser.
+
+### Services
+
+- **Backend**: Node.js backend running at `http://localhost:8000`.
+- **React** : React frontend running at `http://localhost:8080`.
+- **Database**: PostgreSQL database running at `http://localhost:5432`.
+- **Python Scraper**: Apartment ads scraping service.
+
+### Development
+
+- The frontend source code resides in the `client` directory.
+- Backend code is in the `server` directory.
+- Python scraper code is in the `flatScraper` directory.
+
+### Configuration
+
+Check the `compose.yml` file for service configuration details.
